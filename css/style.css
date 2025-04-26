@@ -1,0 +1,45 @@
+    *,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  position: relative;
+  display: inline-block;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  border: 1px solid #ebebeb;
+  cursor: pointer;
+}
+
+.cart img {
+  width: 100%;
+  height: auto;
+}
+
+.cart-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.cart-text p {
+  margin: 0;
+}
+.invisible{
+  visibility: hidden;
+}
